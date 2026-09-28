@@ -1,0 +1,7 @@
+.env
+.aigc-key
+.venv/
+__pycache__/
+.pytest_cache/
+bench/data/
+app/static/dl-*/
