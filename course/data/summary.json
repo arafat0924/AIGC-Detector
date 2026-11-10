@@ -1,0 +1,25 @@
+{
+  "source": "Thilak5434/AI-vs-Real",
+  "seed": 42,
+  "save_size": 256,
+  "jpeg_quality": 95,
+  "label": "label_ai 1 = AI picture, 0 = real photo",
+  "counts": {
+    "train": {
+      "ai": 2000,
+      "real": 2000
+    },
+    "val": {
+      "ai": 400,
+      "real": 400
+    },
+    "test": {
+      "ai": 400,
+      "real": 400
+    }
+  },
+  "mean_original_aspect_width_over_height": {
+    "ai": 1.0,
+    "real": 0.9567225896394036
+  }
+}
