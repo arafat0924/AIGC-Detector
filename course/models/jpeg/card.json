@@ -1,0 +1,57 @@
+{
+  "run": "jpeg",
+  "architecture": "ResNet-18, ImageNet start, final layer replaced with one score",
+  "parameters": 11177025,
+  "epochs_requested": 6,
+  "best_epoch": 3,
+  "learning_rate": 0.0001,
+  "loss": "binary cross-entropy",
+  "optimizer": "Adam",
+  "best_val_auc": 0.9989687500000001,
+  "threshold": 0.61,
+  "threshold_rule": "cutoff chosen on clean validation images to maximize accuracy",
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.12986443247646093,
+      "val_loss": 0.13297080993652344,
+      "val_auc": 0.99734375,
+      "val_accuracy_at_0.5": 0.9525
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.04531460270471871,
+      "val_loss": 0.07674401998519897,
+      "val_auc": 0.998675,
+      "val_accuracy_at_0.5": 0.9725
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.030066104060038925,
+      "val_loss": 0.04023103788495064,
+      "val_auc": 0.9989687500000001,
+      "val_accuracy_at_0.5": 0.9825
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.026318789697717875,
+      "val_loss": 0.09428304433822632,
+      "val_auc": 0.9966437499999999,
+      "val_accuracy_at_0.5": 0.97
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.025682168301194908,
+      "val_loss": 0.11581993103027344,
+      "val_auc": 0.9985125,
+      "val_accuracy_at_0.5": 0.96125
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.014575141564477236,
+      "val_loss": 0.04759198799729347,
+      "val_auc": 0.9989625,
+      "val_accuracy_at_0.5": 0.985
+    }
+  ]
+}
